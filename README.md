@@ -139,30 +139,3 @@ Join the conversation and help the community.
 [![Love Angular badge](https://img.shields.io/badge/angular-love-blue?logo=angular&angular=love)](https://www.github.com/angular/angular)
 
 **Love Angular? Give our repo a star :star: :arrow_up:.**
-
-<!--
-[contributing]: CONTRIBUTING.md
-[quickstart]: https://angular.io/start
-[changelog]: CHANGELOG.md
-[ng]: https://angular.io
-[documentation]: https://angular.io/docs
-[angularmaterial]: https://material.angular.io/
-[cli]: https://cli.angular.io/
-[architecture]: https://angular.io/guide/architecture
-[componentstemplates]: https://angular.io/guide/displaying-data
-[forms]: https://angular.io/guide/forms-overview
-[api]: https://angular.io/api
-[angularelements]: https://angular.io/guide/elements
-[ssr]: https://angular.io/guide/universal
-[schematics]: https://angular.io/guide/schematics
-[lazyloading]: https://angular.io/guide/lazy-loading-ngmodules
-[node.js]: https://nodejs.org/
-[npm]: https://www.npmjs.com/get-npm
-[codeofconduct]: CODE_OF_CONDUCT.md
-[twitter]: https://www.twitter.com/angular
-[discord]: https://discord.gg/angular
-[gitter]: https://gitter.im/angular/angular
-[stackoverflow]: https://stackoverflow.com/questions/tagged/angular
-[youtube]: https://youtube.com/angular
-[meetup]: https://www.meetup.com/find/?keywords=angular
-[animations]: https://angular.io/guide/animations -->
