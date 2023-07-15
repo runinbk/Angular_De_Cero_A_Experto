@@ -10,4 +10,12 @@ export class HeroComponent {
   public name: string = "iroman";
   public ege: number = 40;
 
+  get capitalizeName(): string {
+    return this.name.toUpperCase();
+  }
+
+  getHeroDescription(): string {
+    return `${this.name} - ${this.ege}`;
+  }
+
 }
