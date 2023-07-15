@@ -13,5 +13,9 @@ export class AppComponent {
     this.counter += value;
   }
 
+  reset(): void {
+    this.counter = 10;
+  }
+
 }
 
