@@ -263,28 +263,20 @@ Este comando ejecutara el proyecto y lo abrira en el navegador en el http://loca
 
 - **_`.angular/` ->_** Esta carpeta ayuda a **_Angular_** a manejar rapidamente cuando se detecta algun cambio, a levantar rapidamente la aplicacion cuando no se detecta algun cambio, maneja basicamente el cache de nuestro proyecto en desarrollo. Por lo general esta carpera no se toca por nada del mundo.
 
-- **_`.vscode/` ->_** Esto es algo propiamente de `VSCode`, esta es otra carpeta que no le vas a dar mantenimiento.
+- **_`.vscode/` ->_** Esto es algo propiamente de `VSCode`, esta es otra carpeta que no le vas a dar mantenimiento. Aqui puedes poner extenciones de `VSCode` recomendadas paracunado otro desarrollador trabaje el proyecto tome en cuenta.
 
 - **_`node_modules/` ->_** Esta carpeta es en la que se guardan los modulos de Node, todas la librerias que se usan para hacer el proyecto.
 
 - **_`src/` ->_** Es la carpeta en la que se aloja el proyecto, el codigo y todo eso. Adentro de esta carpeta se encuentra las carpetas para el desarrollo del proyecto. A continuacion se explicara las carpetas.
 
-  - **_`src/app/` ->_**
+  - **_`src/app/` ->_** Es donde comenzaremos a construir toda la logica de la aplicacion. Aqui por defecto se crea el componente principal de la aplicacion. Tanbien se crea por defecto el modulo principal de la aplicacion.
 
-    - **_`src/app/` ->_**
+  - **_`src/favicon.icon` ->_** Es el icono que aparece en la pestaña del proyecto.
 
-    - **_`src/app/` ->_**
+  - **_`src/index.hatml` ->_** Es un archivo `html` normal pero con algo en particular, que la aplicacion se renderizara ahi a travez de las etiquetas `<app-root></app-root>`.
 
-    - **_`src/app/` ->_**
+  - **_`src/main.ts` ->_** Es el punto de entrada de nuestra aplicacion de Angular.
 
-  - **_`favicon.icon` ->_**
-
-  - **_`index.html` ->_**
-
-  - **_`main.ts` ->_**
-
-  - **_`styles.css` ->_**
-
-  - **_`src/assets/` ->_**
+  - **_`src/assets/` ->_** Basicamente por defecto solo contiene un archivo `.gitkeep` que es para que se tomen en cuenta esa carpeta al momento de subirla al repositorio. Este directorio se guardan la imagenes y archivos complementarios de la aplicacion.
 
 [indice](#indice)
