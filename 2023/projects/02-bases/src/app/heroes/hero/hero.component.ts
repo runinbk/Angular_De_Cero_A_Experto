@@ -18,4 +18,17 @@ export class HeroComponent {
     return `${this.name} - ${this.ege}`;
   }
 
+  changeHero(): void {
+    this.name = "Spiderman"
+  }
+
+  changeEge(): void {
+    this.ege = 25
+  }
+
+  reset(): void {
+    this.name = "iroman",
+      this.ege = 40
+  }
+
 }
