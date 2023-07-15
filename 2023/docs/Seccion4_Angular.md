@@ -13,8 +13,6 @@
 - [x] 3. [Exposicion sobre Angular](#3-exposicion-sobre-angular)
 - [x] 4. [Nuestro primer proyecto en Angular](#4-nuestro-primer-proyecto-en-angular)
 - [x] 5. [Explicacion de cara archivo del proyecto](#5-explicacion-de-cara-archivo-del-proyecto)
-- [x] 1. []()
-- [x] 1. []()
 
 <br>
 
@@ -115,9 +113,13 @@ Por otro lado, quiero hablar sobre los **_bloques fundamentales de Angular_**.
 Angular se compone de cinco bloques o pilares fundamentales que son:
 
 - los componentes
+
 - las rutas
+
 - las directivas
+
 - los servicios
+
 - los módulos
 
 **_Los componentes_**
@@ -142,7 +144,9 @@ Luego nosotros tenemos **_las directivas_**.
 Hay tres tipos de directivas:
 
 - directivas de componentes
+
 - directivas estructurales
+
 - directivas de atributos
 
 Esto va a tener más sentido obviamente cuando ya lo miremos, pero solo para hacer algo general. Tampoco les estoy pidiendo que se memoricen esto, obviamente, porque es mucha información.
@@ -260,6 +264,27 @@ Este comando ejecutara el proyecto y lo abrira en el navegador en el http://loca
 - **_`.angular/` ->_** Esta carpeta ayuda a **_Angular_** a manejar rapidamente cuando se detecta algun cambio, a levantar rapidamente la aplicacion cuando no se detecta algun cambio, maneja basicamente el cache de nuestro proyecto en desarrollo. Por lo general esta carpera no se toca por nada del mundo.
 
 - **_`.vscode/` ->_** Esto es algo propiamente de `VSCode`, esta es otra carpeta que no le vas a dar mantenimiento.
-- **_`.angular/` ->_**
+
+- **_`node_modules/` ->_** Esta carpeta es en la que se guardan los modulos de Node, todas la librerias que se usan para hacer el proyecto.
+
+- **_`src/` ->_** Es la carpeta en la que se aloja el proyecto, el codigo y todo eso. Adentro de esta carpeta se encuentra las carpetas para el desarrollo del proyecto. A continuacion se explicara las carpetas.
+
+  - **_`src/app/` ->_**
+
+    - **_`src/app/` ->_**
+
+    - **_`src/app/` ->_**
+
+    - **_`src/app/` ->_**
+
+  - **_`favicon.icon` ->_**
+
+  - **_`index.html` ->_**
+
+  - **_`main.ts` ->_**
+
+  - **_`styles.css` ->_**
+
+  - **_`src/assets/` ->_**
 
 [indice](#indice)
