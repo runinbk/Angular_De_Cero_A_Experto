@@ -1,4 +1,4 @@
-import { Component, Input, Output } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Character } from '../../interfaces/character.interface';
 
 @Component({
@@ -17,12 +17,10 @@ export class ListComponent {
   ]
 
   @Output()
-  onDelete(index: number): number {
-    return index;
-  }
+  public onDelete: EventEmitter<number> = new EventEmitter();
 
   onDeleteCharacter(index: number): void {
     // TODO: Emitir el ID del personaje
-    console.log({ index })
+    this.onDelete.emit(index)
   }
 }

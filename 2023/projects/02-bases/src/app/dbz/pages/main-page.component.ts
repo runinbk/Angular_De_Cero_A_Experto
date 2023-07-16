@@ -27,8 +27,8 @@ export class MainPegeComponent {
         this.characters.push(character);
     }
 
-    onDeleteCharacter(index: number): void {
-        this.characters.splice(index);
+    onDeleteCharacter(index: number) {
+        this.characters.splice(index, 1);
     }
 
 }
