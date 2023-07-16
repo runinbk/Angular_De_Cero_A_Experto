@@ -24,7 +24,11 @@ export class MainPegeComponent {
     ];
 
     onNewCharacter(character: Character): void {
-        console.log(character)
+        this.characters.push(character);
+    }
+
+    onDeleteCharacter(index: number): void {
+        this.characters.splice(index);
     }
 
 }
