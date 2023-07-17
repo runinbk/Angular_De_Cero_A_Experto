@@ -13,7 +13,7 @@
 - [x] 3. [Iniciando el proyecto Spotify](#3-iniciando-el-proyecto-spotify)
   - [x] 3.1. [Intrucciones para crear el proyecto : SpotiApp](#31-intrucciones-para-crear-el-proyecto--spotiapp)
   - [x] 3.2. [API de Spotify](#32-api-de-spotify)
-- [x] 5. [](#)
+- [x] 4. [Comando para Crear un componente sin los archivos de estilo y test](#4-comando-para-crear-un-componente-sin-los-archivos-de-estilo-y-test)
 
 <br>
 
@@ -126,5 +126,17 @@ ng g c components/shared/navbar --style=none
 
 Y para terminar, instalamos el bootstrap, de la siguiente pagina -> [getbootstrap](https://getbootstrap.com/)
 En lo personal lo hago a travez del CDN.
+
+## 4. Comando para Crear un componente sin los archivos de estilo y test
+
+---
+
+Para crear un nuevo componente con las carpetas por defecto pero sin los archivos de estilo y test, podemos usar:
+
+```bash
+ng g c shared/homePage --style=none --skip-tests=true
+```
+
+<br>
 
 - [x] [Indice](#indice)

@@ -13,6 +13,7 @@
 - [x] 3. [Exposicion sobre Angular](#3-exposicion-sobre-angular)
 - [x] 4. [Nuestro primer proyecto en Angular](#4-nuestro-primer-proyecto-en-angular)
 - [x] 5. [Explicacion de cara archivo del proyecto](#5-explicacion-de-cara-archivo-del-proyecto)
+- [x] 6. [Comando para Crear un componente sin los archivos de estilo y test](#6-comando-para-crear-un-componente-sin-los-archivos-de-estilo-y-test)
 
 <br>
 
@@ -278,5 +279,19 @@ Este comando ejecutara el proyecto y lo abrira en el navegador en el http://loca
   - **_`src/main.ts` ->_** Es el punto de entrada de nuestra aplicacion de Angular.
 
   - **_`src/assets/` ->_** Basicamente por defecto solo contiene un archivo `.gitkeep` que es para que se tomen en cuenta esa carpeta al momento de subirla al repositorio. Este directorio se guardan la imagenes y archivos complementarios de la aplicacion.
+
+<br>
+
+## 6. Comando para Crear un componente sin los archivos de estilo y test
+
+---
+
+Para crear un nuevo componente con las carpetas por defecto pero sin los archivos de estilo y test, podemos usar:
+
+```bash
+ng g c shared/homePage --style=none --skip-tests=true
+```
+
+<br>
 
 [indice](#indice)
