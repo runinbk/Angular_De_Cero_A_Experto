@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class ByCapitalPageComponent {
 
+  searchByCapital(trem: string): void {
+    console.log('Search by capital:', trem);
+  }
+
 }
